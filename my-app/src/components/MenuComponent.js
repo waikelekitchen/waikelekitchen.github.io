@@ -19,17 +19,16 @@ const MenuComponent = () => {
             <Container>
             <h2 className="title">MENU</h2>
             <br />
-            <h4>Asian Lunch Plates &middot; Ahi Poke Bowls</h4>
-            <br />
             <div id="menu-section">
+                <h4> &middot; Asian Lunch Plates &middot;</h4>
                 <Row>
-                    <Col style={{padding: "0px"}} onClick={() => setShowMenu1(true)}><Image className="menu-img" src={menu1} alt="menu1" /></Col>
+                    <Col style={{padding: "10px 0px"}} onClick={() => setShowMenu1(true)}><Image className="menu-img" src={menu1} alt="menu1" /></Col>
                     <Modal size="xl" centered aria-labelledby="contained-modal-title-vcenter" show={showMenu1} onHide={() => setShowMenu1(false)} animation={false}>
                         <Modal.Header closeButton>
                         </Modal.Header>
                         <Modal.Body><Image className="menu-model-img" src={menu1} alt="menu1" /></Modal.Body>
                     </Modal>
-                    <Col style={{padding: "0px"}} onClick={() => setShowMenu2(true)}><Image className="menu-img" src={menu2} alt="menu2" /></Col>
+                    <Col style={{padding: "10px 0px"}} onClick={() => setShowMenu2(true)}><Image className="menu-img" src={menu2} alt="menu2" /></Col>
                     <Modal size="xl" centered aria-labelledby="contained-modal-title-vcenter" show={showMenu2} onHide={() => setShowMenu2(false)} animation={false}>
                         <Modal.Header closeButton>
                         </Modal.Header>
@@ -37,10 +36,9 @@ const MenuComponent = () => {
                     </Modal>
                 </Row>
                 <br />
-                <br />
-                <br />
+                <h4>&middot; Ahi Poke Bowls &middot;</h4>
                 <Row>
-                    <Col style={{padding: "0px"}} onClick={() => setShowMenu3(true)}><Image className="menu-img" src={menu3} alt="menu3" /></Col>
+                    <Col style={{padding: "10px 0px"}} onClick={() => setShowMenu3(true)}><Image className="menu-img" src={menu3} alt="menu3" /></Col>
                     <Modal size="xl" centered aria-labelledby="contained-modal-title-vcenter" show={showMenu3} onHide={() => setShowMenu3(false)} animation={false}>
                         <Modal.Header closeButton>
                         </Modal.Header>
