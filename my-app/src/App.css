@@ -1,5 +1,7 @@
 html {
   scroll-padding-top: 180px;
+  background-color: #284737;
+  color: #FEF6E1;
 }
 
 #app {
@@ -30,6 +32,7 @@ html {
   text-align: center;
   text-decoration: underline;
   text-underline-offset: 0.6em;
+  color: #FFCD07;
 }
 
 @media (max-width: 800px) { 

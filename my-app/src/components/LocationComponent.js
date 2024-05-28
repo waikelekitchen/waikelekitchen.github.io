@@ -8,6 +8,11 @@ const LocationComponent = () => {
         <div id="location">
             {/* <h2 className="title">LOCATION</h2> */}
             <Row style={{ padding: '0px', margin: '0px' }}>
+                <Col id="location-image-container" >
+                    <div>
+                        {/* <Image className="loc-img" src={locationIMG} alt="locationIMG" /> */}
+                    </div>
+                </Col>
                 <Col sm={6}>
                     <div id="location-section">
                         <br />
@@ -16,21 +21,16 @@ const LocationComponent = () => {
                         <br />
                         <br />
                         <h3>Address</h3>
-                        <a style={{color: 'black', textDecoration: 'none'}} href="https://www.google.com/maps/place/The+Lanai/@21.2907961,-157.8445935,17z/data=!3m2!4b1!5s0x7c006df06800f5bd:0x7edf0a3ab5fa79dc!4m6!3m5!1s0x7c006df1ad481819:0xb33e628fac12471f!8m2!3d21.2907911!4d-157.8420132!16s%2Fg%2F11fzzh50ws?entry=ttu" target="_blank" rel="noopener noreferrer"><p id="location-box"> The Lanai Food Court @ Ala Moana</p></a>
-                        <p>1450 Ala Moana Blvd. Honolulu, HI 96814</p>
+                        <a style={{ color: 'black', textDecoration: 'none' }} href="https://www.google.com/maps/place/Waikele+Kitchen+and+Aloha+Coffee+%26+Tea/@21.4025157,-158.00927,17z/data=!3m1!4b1!4m6!3m5!1s0x7c006700500eea67:0x9d76835f264a1e02!8m2!3d21.4025157!4d-158.0066951!16s%2Fg%2F11vyq8v5td?entry=ttu" target="_blank" rel="noopener noreferrer"><p id="location-box">Waikele Premium Outlet</p></a>
+                        <p>94-790 Lumiaina St, Waipahu, HI 96797</p>
                         <br />
                         <h3>Hours</h3>
-                        <p>Monday - Thursday: 10:30 am to 7:00 pm</p>
-                        <p>Friday - Saturday: 10:30 am to 8:00 pm</p>
-                        <p>Sunday: 10:30 am to 6:00 pm</p>
+                        <p>Monday - Thursday: 10:00 am to 7:00 pm</p>
+                        <p>Friday - Saturday: 10:00 am to 8:00 pm</p>
+                        <p>Sunday: 11:00 am to 6:00 pm</p>
                         <br />
                         <br />
                         <br />
-                    </div>
-                </Col>
-                <Col id="location-image-container" >
-                    <div>
-                        {/* <Image className="loc-img" src={locationIMG} alt="locationIMG" /> */}
                     </div>
                 </Col>
             </Row>

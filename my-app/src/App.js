@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import NavbarComponent from './components/NavbarComponent';
 import BannerComponent from './components/BannerComponent';
+import NavbarComponent from './components/NavbarComponent';
 import MenuComponent from './components/MenuComponent';
 import LocationComponent from './components/LocationComponent';
 import AboutComponent from './components/AboutComponent';

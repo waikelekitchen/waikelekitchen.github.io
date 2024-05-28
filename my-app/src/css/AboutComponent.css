@@ -1,8 +1,9 @@
 #about {
-    margin-top: 30px;
-    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
+    background-color: #284737;
+    color: #FEF6E1;
+    padding: 50px 0px;
 }
 
 #history-summary{

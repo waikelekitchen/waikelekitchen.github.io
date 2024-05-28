@@ -8,14 +8,16 @@ import "../css/AboutComponent.css";
 
 const AboutComponent = () => {
     return (
-        <Container id="about">
+        <div id="about">
+            <Container>
             <h2 className="title">ABOUT</h2>
+            <br/>
             <Row>
                 <Col sm={6}>
                     <h3>History</h3>
                     <br/>
                     <p id="history-summary">
-                        Since 2015, HiTEA Cafe has been delighting Honolulu with outstanding boba creations and authentic Asian fare. Our fresh smoothies, teas, and scratch-made meals keep customers coming back. Customize your dream drink and taste our passion for freshness.
+                    Waikele Kitchen, newly opened in 2024, is now welcoming visitors at the open-air food court in Waikele Premium Outlets. The restaurant offers a delectable selection of local-style Ahi Poke Bowls and Asian lunch plates, inviting customers to indulge in a variety of delicious flavors.
                     </p>
                     <br/>
                     <p>
@@ -30,6 +32,7 @@ const AboutComponent = () => {
                 
             </Row>
         </Container>
+        </div>
     )
 }
 
