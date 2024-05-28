@@ -25,7 +25,9 @@ const AboutComponent = () => {
                     </p>
                 </Col>
                 <Col id="about-img-container" sm={6}>
-                    <Image id="about-img" src={history} alt="food" />
+                    <div id="about-img-box">
+                        <Image id="about-img" src={history} alt="food" />
+                    </div>
                 </Col>
             </Row>
             <Row>

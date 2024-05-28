@@ -30,4 +30,12 @@
     #location-section {
         padding-left: 0px;
     }
+    #location-image-container {
+        display: none;
+    }
+    #location {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(../img/location-img.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
 }

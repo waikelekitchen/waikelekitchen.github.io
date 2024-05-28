@@ -5,7 +5,7 @@
 }
 
 #banner-section {
-    padding: 50px 100px 40px 170px;
+    padding: 5% 15%;
     flex-direction: column;
     height: 100%;
     display: flex;
@@ -23,12 +23,18 @@
 
 #banner-title {
     color: #FFCD07;
-    font-size: 80px;
+    font-size: 5em;
     font-weight: 600;
 }
 
 @media (max-width: 800px) { 
     #location-section {
         padding-left: 0px;
+    }
+    #banner-title {
+        font-size: 3em;
+    }
+    #banner-image-container {
+        height: 25em;
     }
 }

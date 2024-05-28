@@ -11,10 +11,15 @@
 }
 
 #about-img {
-    width: 75%;
+    width: 100%;
+}
+
+#about-img-box {
+    width: 80%;
 }
 
 #about-img-container {
+    width: 50%;
     display: flex;
     justify-content: flex-end;
 }
@@ -22,5 +27,6 @@
 @media (max-width: 800px) { 
     #about-img-container {
         justify-content: center;
+        width: 100%;
     }
 }
